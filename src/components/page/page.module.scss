@@ -7,3 +7,7 @@
 .content {
   flex-grow: 1;
 }
+
+:global {
+    @import "materialize-css/sass/materialize";
+}

@@ -7,8 +7,6 @@ import Spacer from "../components/spacer"
 import Typography from "../components/typography"
 import TextBlock from "../components/text-block"
 
-import "../css/materialize.min.css"
-
 const TeamPage = () => {
   return (
     <Page title="Team">
