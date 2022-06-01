@@ -59,9 +59,6 @@ module.exports = {
           "sass-loader",
           {
             loader: "sass-resources-loader",
-            options: {
-              resources: ["node_modules/sass-mq/_mq.scss", "./src/config.scss"],
-            },
           },
         ],
       },
