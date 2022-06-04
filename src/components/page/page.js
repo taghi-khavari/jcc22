@@ -6,6 +6,7 @@ import Footer from "../footer"
 import Spacer from "../spacer"
 
 import "./main.css"
+import "./materialcss-global.scss"
 import style from "./page.module.scss"
 
 const Page = ({ children, title }) => {
