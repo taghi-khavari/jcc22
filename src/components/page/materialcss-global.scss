@@ -1,1 +1,15 @@
-@import "materialize-css/sass/materialize";
+// Color
+@import "materialize-css/sass/components/color-variables";
+@import "materialize-css/sass/components/color-classes";
+
+// Variables;
+@import "materialize-css/sass/components/variables";
+
+// Reset
+@import "materialize-css/sass/components/normalize";
+
+// components
+@import "materialize-css/sass/components/global";
+@import "materialize-css/sass/components/grid";
+@import "materialize-css/sass/components/typography";
+@import "materialize-css/sass/components/cards";
