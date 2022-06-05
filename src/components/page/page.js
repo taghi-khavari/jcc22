@@ -5,8 +5,14 @@ import Header from "../header"
 import Footer from "../footer"
 import Spacer from "../spacer"
 
+// global style
 import "./main.css"
+
+// stripped down, minimal global imports
+// mostly html default styling
 import "./materialcss-global.scss"
+
+// page component styles
 import style from "./page.module.scss"
 
 const Page = ({ children, title }) => {
